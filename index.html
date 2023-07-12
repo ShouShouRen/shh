@@ -1,75 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Document</title>
 </head>
-
 <body>
-  <div id="login_page">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-8 p-0">
-          <div class="text_block position-absolute">
-            <h2>衛生福利部雙和醫院</h2>
-            <h2 class="w-100">委託臺北醫學大學興建經營</h2>
+  <section id="login_page" class="d-flex w-100 position-relative">
+    <div class="login_img_box">
+      <div class="login-title">
+        <h2>衛生福利部雙和醫院</h2>
+        <h2>委託臺北醫學大學興建經營</h2>
+      </div>
+      <img src="./image/output-onlinepngtools.png" class="position-absolute inset-0 w-100 h-100 object-fit-cover" alt="">
+    </div>
+    <div class="login_form_box">
+      <div class="w-100 pt-5 pt-lg-0">
+        <h2 class="text-center pb-5">帳號登入</h2>
+        <form action="">
+          <input type="text" class="form-control my-5 w-100 rounded-pill" placeholder="帳號">
+          <input type="password" class="form-control my-5 w-100 rounded-pill" placeholder="密碼">
+          <div class="text-end">
+            <button type="submit" class="btm">登入</button>
           </div>
-          <img src="./image/output-onlinepngtools.png" class="login_img" alt="">
-          <!-- <img src="./image/2021-07-30.jpg" class="login_img" alt=""> -->
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="py-2 w-100 bg-deepblue">
+    <div class="container">
+      <div class="d-flex flex-wrap justify-content-between align-items-center">
+        <div class="col-12 col-lg-4">
+          <div class="d-flex align-items-center justify-content-center">
+            <a class="text-white" href="https://lin.ee/9NmePcP">
+              <i class="fa-brands fa-line"></i>
+            </a>
+            <a class="text-white" href="https://www.instagram.com/shh_hospital/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="text-white" href="https://www.facebook.com/tmushhhospital/">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a class="text-white" href="https://www.youtube.com/watch?v=jJgXDXcUziM&list=PLkTkW6Xz0u1H6PSJcM1_m5iIQp5eQbtTw&index=14">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
         </div>
-        <div class="col-4 bg-my-secondary p-0">
-          <div class="login_wrapper">
-            <h4 class="login_title text-center pb-5">帳號登入</h4>
-            <!-- <div class="d-flex my-2 align-items-center justify-content-between"> -->
-            <!-- <label for="">帳號</label>  -->
-
-            <input type="text" class="form-control my-5 w-100 rounded-pill" placeholder="帳號">
-            <!-- </div> -->
-            <!-- <div class="d-flex my-2 align-items-center justify-content-between"> -->
-            <!-- <label for="">密碼</label> -->
-            <div class="my-5">
-
-              <input type="password" class="form-control my-2 w-100 rounded-pill" placeholder="密碼">
-              <!-- </div> -->
-            </div>
-            <div class="text-end">
-              <button class="mybtn my-2">登入</button>
-            </div>
-          </div>
+        <div class="col-12 col-lg-4">
+          <p class="text-white text-center text-lg-end fw-bold">衛生福利部雙和醫院(委託臺北醫學大學興建經營)235041 新北市中和區中正路291號代表號：02-22490088</p>
         </div>
       </div>
-      <footer class="w-100 fixed-bottom text-white">
-        <div class="container">
-          <div class="row align-items-center justify-content-between py-3">
-            <div class="col-4 icon-group">
-              <div class="d-flex align-items-center justify-content-center">
-                <a href="https://lin.ee/9NmePcP">
-                  <i class="fa-brands fa-line"></i>
-                </a>
-                <a href="https://www.instagram.com/shh_hospital/">
-                  <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a href="https://www.facebook.com/tmushhhospital/">
-                  <i class="fa-brands fa-facebook"></i>
-                </a>
-                <a href="https://www.youtube.com/watch?v=jJgXDXcUziM&list=PLkTkW6Xz0u1H6PSJcM1_m5iIQp5eQbtTw&index=14">
-                  <i class="fa-brands fa-youtube"></i>
-                </a>
-              </div>
-            </div>
-            <div class="col-4">
-              <p class="text-end">衛生福利部雙和醫院(委託臺北醫學大學興建經營)235041 新北市中和區中正路291號代表號：02-22490088</p>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
-  </div>
+  </footer>
 </body>
-
 </html>
