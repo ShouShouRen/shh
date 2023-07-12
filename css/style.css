@@ -1,0 +1,111 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primarys: #3AA6B9,
+  --secondarys: #C1ECE4,
+}
+.text-my-primary{
+  color: #3AA6B9;
+}
+.bg-my-primary{
+  background-color: #3AA6B9;
+}
+.bg-my-secondary{
+  background-color: #C1ECE4;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
+
+body{
+  font-family: "Noto Sans Tc";
+}
+h1,h2,h3,h4,h5,h6,p,a,span{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ .login_img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+#login_page .text_block{
+  top: 30%;
+  width: 66.7%;
+  backdrop-filter: blur(3px);
+  background-color: #ffffff76;
+}
+#login_page .text_block h2:nth-child(1){
+  font-size: 48px;
+  color: #2D4356;
+    text-shadow: 10px 10px 10px #a1a1a1;
+
+  padding-block: 3%;
+  padding-inline: 4%;
+  font-weight: bold;
+  z-index: 10;
+}
+#login_page .text_block h2:nth-child(2){
+  font-size: 48px;
+  text-shadow: 10px 10px 10px #a1a1a1;
+  color: #2D4356;
+  padding-inline: 20%;
+  padding-block: 3%;
+
+  font-weight: bold;
+  z-index: 10;
+}
+#login_page footer{
+  height: 10vh;
+  background-color: #435B66;
+}
+#login_page .login_wrapper{
+  height: 100vh;
+  width: 100%;
+  padding-block: 30%;
+  padding-inline: 10%;
+}
+.login_wrapper .login_title{
+  font-size: 25pt;
+}
+.login_wrapper label{
+  margin-block: 5%;
+  font-size: 20pt;
+}
+.login_wrapper input{
+  height: 48px;
+  background-color: #C1ECE4;
+  outline: 2px solid #fff;
+  font-size: 20px;
+}
+.icon-group a{
+  color: #fff;
+}
+.mybtn{
+  padding: 16px 32px;
+  background-color: #3AA6B9;
+  color: white;
+  outline: none;
+  border-radius: 20px;
+  border: none;
+  transition: all 0.3s;
+  font-size: 20px;
+}
+.mybtn:hover, .mybtn:active{
+  background-color: #C1ECE4;
+  outline: 2px solid white;
+  color: #3AA6B9;
+}
+.icon-group{
+  line-height: 20px;
+  font-size: 38px;
+}
+.icon-group i{
+  padding: 6px;
+}
+footer p{
+  font-weight: bold;
+}
